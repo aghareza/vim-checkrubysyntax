@@ -7,7 +7,7 @@ endif
 let g:loaded_checkrubysyntax = 1
 
 if !exists('g:checkrubysyntax_nomap')
-  nnoremap <silent> <Leader>rs :CheckRubySyntax<CR>
+  nnoremap <silent> <LocalLeader>rs :CheckRubySyntax<CR>
 endif
 
 function! s:CheckRubySyntax()
