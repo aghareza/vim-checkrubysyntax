@@ -7,7 +7,7 @@ endif
 let g:loaded_checkrubysyntax = 1
 
 if !exists('g:checkrubysyntax_nomap')
-  nnoremap <silent> <LocalLeader>rs :CheckRubySyntax<CR>
+  autocmd Filetype ruby nnoremap <silent> <buffer> <LocalLeader>rs :CheckRubySyntax<CR>
 endif
 
 function! s:CheckRubySyntax()
