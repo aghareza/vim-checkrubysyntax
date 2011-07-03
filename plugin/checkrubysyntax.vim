@@ -1,12 +1,12 @@
 " File: checkrubysyntax.vim
 " Author: Ali Aghareza <aghareza AT gmail DOT com>
 
-if exists("g:loaded_rubysyntax") || &cp
+if exists("g:loaded_checkrubysyntax") || &cp
     finish
 endif
 let g:loaded_rubysyntax = 1
 
-if !exists('g:rubysyntax_nomap')
+if !exists('g:checkrubysyntax_nomap')
   nnoremap <silent> <Leader>rs :CheckRubySyntax<CR>
 endif
 
