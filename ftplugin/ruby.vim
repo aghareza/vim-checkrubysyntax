@@ -1,4 +1,4 @@
-" File: checkrubysyntax.vim
+" Language: Ruby
 " Author: Ali Aghareza <aghareza AT gmail DOT com>
 
 if exists("g:loaded_checkrubysyntax") || &cp
